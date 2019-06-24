@@ -1,4 +1,3 @@
-function hideWhenClicked(event) {
-  $(event.target).hide();
+function hideWhenClicked() {
+  $(this).parent().hide();
 }
-$('#hide_this').click(hideWhenClicked);
