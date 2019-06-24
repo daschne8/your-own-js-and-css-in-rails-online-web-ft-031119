@@ -1,3 +1,3 @@
 function hideWhenClicked(element){
-  $(element).hide
+  $(element.target).hide
 }
